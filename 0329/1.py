@@ -1,1 +1,1 @@
-asdfasd
+print('hellow world')
