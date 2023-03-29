@@ -22,7 +22,7 @@ print("school[2:4]",school[2:4]) #미래
 print("school[1:]",school[1:]) #양미래대
 print("school[0:len(school)]", school[0:len(school)]) #동양미래대
 '''
-
+'''
 school = "동양미래대학교-컴퓨터소프트웨어공학과"
 print("school[:]",school[::-1]) #과학공어웨트프소터퓨컴-교학대래미양동(음수면 거꾸로 출력)
 print("school[:]",school[::]) #동양미래대학교-컴퓨터소프트웨어공학과
@@ -30,3 +30,8 @@ print("school[:len(school):2]", school[0:len(school):2]) #동미대교컴터프�
 print("school[1:4]",school[8:len(school):2]) #컴터프웨공과
 print("school[2:4]",school[8:len(school)]) #컴퓨터소프트웨어공학과
 print("school[1:]",school[0:15:4]) #동양미래대학교-컴퓨터소프트웨어 -> 동대컴프
+
+school = "동양미래대학교-컴퓨터소프트웨어공학과"
+print("school[5:0:-1]",school[5:0:-1]) 
+print("school[-1:-7:-1]",school[-1:-7:-1])
+'''
