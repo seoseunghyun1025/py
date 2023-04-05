@@ -36,9 +36,10 @@ print(f4)
 '''
 
 #boolean
-
+'''
 print(type(True),type(False))
 a = "hello"
 print(bool(a),bool("hi"),bool("0"),bool(1.2))
 print(bool(""),bool(0)) #빈 문자와 0(정수형)만 false
 print(int(True), int(False), str(True)) #str 변수로 하면 큰일남
+'''
