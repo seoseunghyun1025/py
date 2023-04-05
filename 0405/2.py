@@ -48,7 +48,7 @@ for i in range(0,20,2) : # 0~19까지 +2씩 출력(짝수 출력)
 
 for i in range(1,20,3) : # 1~19까지 +3씩 출력
     print("i:", i)
-'''
+
 # 1부터 10까지 합을 구하시오.
 # 2가지 방법으로 range도 쓰고, 명시도 하고
 
@@ -62,5 +62,36 @@ print(sum)
 # 두 번째
 sum = 0
 for i in range(1,11,1) : 
-    sum += i 
-print(sum)
+    sum += i
+else :
+    print("else안의 문구")
+    print(sum)
+print("else밖의 문구")
+'''
+# print(i, end=' ')
+n = 0
+while n < 11 :
+    # print("n:", n)
+    # 1 2 3 4로 하고 싶으면
+    print(n, end=" ") # end=" "는 공백 수
+    n += 1
+
+#sum, 0-10까지 숫자를 더함
+n = 0
+sum = 0
+while n < 11 :
+    sum += n
+    print(n,"번째 :",sum)
+    n += 1
+print("총:",sum)
+
+while False:
+    print("실행이 되지 않음") # 컴퓨터가 인식하고 흐릿하게 나옴
+print("While False 다음 줄")
+while True:
+    print("무한 루프")
+    break
+
+while 0:
+    print("실행이 되지 않음")
+print("while 0 다음 줄입니다.")
